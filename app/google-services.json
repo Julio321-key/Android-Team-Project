@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12499508045",
+    "project_id": "present-pu",
+    "storage_bucket": "present-pu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12499508045:android:62b314dd08b5ef2da53504",
+        "android_client_info": {
+          "package_name": "com.example.presentpu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY5G_zFf8xQkjPrDoGAzjm3C2OlWaJPns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000456"
+        android:padding="12dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:text="STUDENT"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/lgOutBtn"
+            android:layout_width="45dp"
+            android:layout_height="39dp"
+            android:src="@drawable/exit"
+            android:background="#000456"
+            android:onClick="logoutUser"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#808080">
+
+        <ImageButton
+            android:id="@+id/attd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/attandance1"
+            android:background="#808080"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
